@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.swiper {
+  width: 260px;
+  height: 380px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide p {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.swiper-slide p span {
+  font-weight: 400;
+}
